@@ -34,14 +34,14 @@ Version: 1.0.0
     color: #3f3f3f;
     line-height: 1.8;
     overflow-x: hidden;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Medium"!important;
     -webkit-font-smoothing: antialiased;
   }
 
   
 h1, h2, h3, h4, h5, h6 {
     color: #3f3f3f;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Medium"!important;
     font-weight: 700;
   }
 /* Style for Mega Menu */
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .navbar-nav a, .navbar .navbar-nav ul, .navbar .navbar-nav li, .navbar .navbar-nav div, .navbar .navbar-nav form, .navbar .navbar-nav input {
     margin: 0;
     padding: 0;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
   }
 /*-----------------------------------
  * SEARCH BUTTON POPUP AJAX
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     color: #fff;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     letter-spacing: 2px;
     height: 100%;
     padding: 0;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
  *-----------------------------------*/
 
  .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-quote-wrapper blockquote {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     border-left: none;
     font-style: italic;
     margin: 0;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 36px;
     height: 36px;
     line-height: 36px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
     font-weight: 600;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 4px solid #006ad0;
     font-size: 16px;
     font-style: italic;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     margin: 5%;
   }
 
@@ -116,11 +116,11 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
   }
 
   .single-content .single-wrapper .author-info .author-description .author-bio {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-style: italic;
     font-size: 15px;
     padding: 0 12%;
@@ -130,11 +130,11 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
   }
 
   .single-content .single-wrapper .single-post-navigation .nav-links.nav-next .post-navigation-content .post-navigation-title {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     color: #3f3f3f;
     display: inline-block;
     font-size: 16px;
@@ -142,14 +142,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .single-content .single-wrapper .author-info .author-description .author-bio {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-style: italic;
     font-size: 15px;
     padding: 0 12%;
   }
 
   .single-product-top .entry-summary form.cart .woocommerce-variation-price span.price {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-size: 20px;
     color: #006ad0;
   }
@@ -158,32 +158,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5px;
     color: #006ad0;
     font-size: 16px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-style: italic;
     position: relative;
     top: -3px;
   }
 
   .woocommerce-cart .woocommerce table.shop_table_responsive .product-price .woocommerce-Price-amount {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     color: #3f3f3f;
   }
 
   .woocommerce-cart .woocommerce table.shop_table_responsive .product-subtotal .woocommerce-Price-amount {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-weight: 700;
     color: #3f3f3f;
   }
 
   .woocommerce-wishlist .woocommerce .wishlist_table tbody .product-price {
     color: #3f3f3f;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     text-align: left;
     font-weight: 700;
   }
 
   .popup-product-quick-view-wrapper .woocomerce-quickview-info .entry-summary form.cart .woocommerce-variation-price span.price {
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-size: 20px;
     color: #006ad0;
   }
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5px;
     color: #006ad0;
     font-size: 16px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-style: italic;
     position: relative;
     top: -3px;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%;
     left: 50%;
     font-size: 42px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     line-height: .9;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   .counter-shortcode-wrap.style_2 .gr-counter .content-inner .gr-number-counter {
     color: #006ad0;
     font-size: 56px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-weight: 700;
   }
 
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 90px;
     flex: 0 0 90px;
     font-weight: 700;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     position: relative;
     text-align: center;
     -webkit-border-radius: 50%;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   .images-gallery-shortcode-wrap.grid .images-list .image-item .slide-item .image-meta .image-title {
     color: #fff;
     font-size: 18px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   .testimonial-shortcode-wrap.carousel_3 .testimonial-list .testimonial-item .testimonial-content .testimonial-author-meta .testimonial-title {
     color: #fff;
     font-size: 24px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-style: italic;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 30px;
     height: 30px;
     line-height: 26px;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     border-radius: 50%;
     font-size: 15px;
     text-align: center;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 4px 2px 4px;
     margin: 0 5px;
     color: #3f3f3f;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Light"!important;;
     font-size: 15px;
   }
 
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
   height: 30px;
   line-height: 26px;
-  font-family: "Gotham-Light";
+  font-family: "Gotham-Light"!important;;
   border-bottom: 1px solid #fff;
   border-radius: 50%;
   font-size: 15px;
@@ -311,3 +311,177 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+/*HOME 5 STLES*/
+/*acme icon sticky header size*/
+header.haru-main-header .haru-header-nav-wrap.nav-sticky .header-logo a img {
+  /* max-height: 80px;
+   padding-top: 5px;*/
+  max-height: 60px;
+}
+/*big header bg brown*/
+header.haru-main-header.header-over-slideshow.header-sticky.sticky_light .haru-header-nav-wrap, header.haru-main-header.header-over-slideshow.header-sticky.sticky_dark .haru-header-nav-wrap {
+   background-color: #412F2F;
+}
+/*sticky header bg -sky blue - brown*/
+header.haru-main-header.header-over-slideshow.header-sticky.sticky.sticky_light .haru-header-nav-wrap {
+  /* background-color: #39ACE1;*/
+  background-color: #412F2F;
+}
+
+header.haru-main-header.header-sticky.sticky_light .header-elements-item.mini-cart-wrap .widget_shopping_cart_content .widget_shopping_cart_icon .total {
+   background-color: #39ACE1;
+   color: #fff;
+}
+/*light gray text sticky header list link*/
+header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap .header-navigation .menu-wrap .haru-main-menu > li > a {
+   color: #f7f7f7;
+}
+/*sticky header text link orange on hover*/
+header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap .header-navigation .menu-wrap .haru-main-menu > li > a:hover {
+   color: #F58A35;
+}
+
+/*cart hover orange*/
+header.haru-main-header.header-over-slideshow.navigation_light:not(.sticky) .header-elements-item a.header-icon:hover, header.haru-main-header.header-over-slideshow.navigation_light:not(.sticky) .header-elements-item i.header-icon:hover {
+   color: #F58A35;
+   -webkit-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
+header.haru-main-header.header-sticky.sticky_light .header-elements-item.mini-cart-wrap .widget_shopping_cart_content .widget_shopping_cart_icon .total {
+   background-color: #F58A35;
+   color: #fff;
+}
+
+/*general orange on hover links*/
+a:hover {
+   color: #F58A35;
+   text-decoration: none;
+}
+/*search cart icon on sticky menu light orange*/
+header.haru-main-header.header-sticky.sticky_light .header-elements-item a.header-icon, header.haru-main-header.header-sticky.sticky_light .header-elements-item i.header-icon {
+   color: #f7be68;
+   -webkit-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
+/*mobile menu circle cart items round - sky blue*/
+.mini-cart-wrap .widget_shopping_cart_content .widget_shopping_cart_icon .total {
+  
+   background: #39ACE1;
+  
+}
+
+/*HOME 1 STLES*/
+/*footer bg color dark brown*/
+.vc_custom_1547197338511 {
+   
+   background-color: #412F2F !important;
+}
+/*footer get in touch icons color sky blue*/
+.footer-contact-shortcode-wrap.style_1 .footer-contact-content .contact-information li span.contact-icon {
+   color: #39ACE1;
+   
+}
+/*active page link orange color*/
+header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap .header-navigation .menu-wrap .haru-main-menu > li.current-menu-item > a {
+   color: #F58A35;
+}
+/*propuesta 1 styles*/
+header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap {
+   background-color: #412F2F !important;
+}
+
+.header-1 .haru-header-nav-wrap .header-nav-above {
+   height: 55px!important;
+}
+
+header.haru-main-header .header-logo a img {
+   max-height: 55px!important;
+}
+
+.vc_custom_heading.heading_style_5 .hightlight-heading {
+   color: #F58A35!important;
+   padding-left: .2em;
+}
+.vc_custom_1546850437119 {
+   background-color: #ffc811ab !important;
+}
+
+/*about us footer bg primary*/
+.vc_custom_1551167934261 {
+   padding-top: 3% !important;
+   padding-bottom: 5% !important;
+   background-color: #412F2F !important;
+}
+.vc_custom_1547630883892 {
+   background-color: #412F2F !important;
+}
+span.vc_sep_line {
+   border-color: #f7f7f7;
+}
+
+/*404 page orange letter*/
+.haru-content-404 .page-content .haru-title-404 {
+   line-height: 1;
+   font-size: 250px;
+   color: #F58A35;
+}
+.haru-content-404 .page-content a {
+   background-color: #F58A35;
+   border: 1px solid #F58A35;
+
+}
+.haru-content-404 .page-content a:hover {
+   border: 1px solid #F58A35;
+   background-color: transparent;
+   color: #F58A35;
+   -webkit-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
+
+/*mobile header bg color brown*/
+header.haru-mobile-header .haru-mobile-header-wrap .haru-mobile-header-container {
+  background-color: #412F2F;
+}
+header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap {
+  background-color: #412F2F;
+}
+/*mobile menu cart color - sky blue*/
+.header-elements-item a.header-icon, .header-elements-item i.header-icon {
+  color: #39ACE1;
+}
+
+/*nav link on hover color orange*/
+header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap .header-navigation .menu-wrap .haru-main-menu > li > a:hover {
+  color: #F58A35;
+}
+/*footer text dark*/
+.text-color-secondary {
+  color: #383636;
+}
+/*footer links normal acme black*/
+.footer-link-shortcode-wrap.style_1 .footer-link-content .link-list a {
+  padding: 10px 0;
+  display: block;
+  line-height: 1;
+  color: #383636;
+}
+/*foooter links > orange on hover*/
+.footer-link-shortcode-wrap.style_1 .footer-link-content .link-list a:hover::before {
+  color: #F58A35;
+  opacity: 1;
+  width: 10px;
+}
+/*footer text acme black*/
+.footer-contact-shortcode-wrap.style_1 .footer-contact-content .contact-information li {
+  padding: 10px 0;
+  color: #383636;
+}
+/*footer icons direcciones orange*/
+.footer-contact-shortcode-wrap.style_1 .footer-contact-content .contact-information li span.contact-icon {
+  color: #F58A35;
+}
+
