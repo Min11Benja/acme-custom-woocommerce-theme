@@ -22,6 +22,12 @@ Version: 1.0.0
 }
 
 @font-face {
+  font-family: Gotham-Bold;  
+  src: url(../pangja-child/assets/fonts/Gotham-Bold.ttf);
+  font-weight: lighter;
+}
+
+@font-face {
     font-family: Gotham-Medium;  
     src: url(../pangja-child/assets/fonts/Gotham-Medium.ttf);
     font-weight: normal;
@@ -41,7 +47,7 @@ Version: 1.0.0
   
 h1, h2, h3, h4, h5, h6 {
     color: #3f3f3f;
-    font-family: "Gotham-Medium"!important;
+    font-family: "Gotham-Bold"!important;
     font-weight: 700;
   }
 /* Style for Mega Menu */
@@ -55,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .navbar-nav a, .navbar .navbar-nav ul, .navbar .navbar-nav li, .navbar .navbar-nav div, .navbar .navbar-nav form, .navbar .navbar-nav input {
     margin: 0;
     padding: 0;
-    font-family: "Gotham-Light"!important;;
+    font-family: "Gotham-Bold"!important;;
   }
 /*-----------------------------------
  * SEARCH BUTTON POPUP AJAX
@@ -484,4 +490,230 @@ header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap .header-
 .footer-contact-shortcode-wrap.style_1 .footer-contact-content .contact-information li span.contact-icon {
   color: #F58A35;
 }
+.vc_custom_heading.footer_style_1 {
+  color: #f58b35;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/*HERO SLIDE 2*/
+rs-layer#slider-5-slide-12-layer-5 {
+  font-family: Gotham-Medium!important;
+  background-color: #f58b35!important;
+  color: #fff!important;
+  border-color: #fff!important;
+}
+rs-layer#slider-5-slide-12-layer-5 {
+  font-family: Gotham-Medium!important;
+  background-color: #f58b35!important;
+  color: #fff;
+}
+rs-layer#slider-5-slide-12-layer-1
+{
+  font-family: Gotham-Bold!important;
+}
+rs-layer#slider-5-slide-12-layer-2 {
+  font-family: Gotham-Bold!important;
+}
 
+rs-layer#slider-5-slide-12-layer-3 {
+ font-family: Gotham-Bold!important;
+}
+
+rs-layer#slider-5-slide-12-layer-4{
+  font-family: Gotham-Bold!important;
+ }
+ rs-layer#slider-5-slide-12-layer-5 {
+  font-family: Gotham-Bold!important;
+  background-color: #f58b35!important;
+  border: #fff 2px solid!important;
+  padding: 20px 35px !important;
+  letter-spacing: .05em;
+  font-size: 20px!important;
+  color: #fff;
+  border-radius: 6px;
+}
+ /*slide 1*/
+ rs-layer#slider-5-slide-13-layer-5 {
+  background-color: #f58b35 !important;
+  border: #f58b35 2px solid!important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  padding: 20px 35px !important;
+  min-width: 150px;
+  letter-spacing: .05em;
+  border-radius: 6px;
+  font-size: 20px!important;
+  font-family: Gotham-Bold!important;
+}
+
+rs-layer#slider-5-slide-13-layer-19 {
+  font-family: Gotham-Bold!important;
+}
+
+rs-layer#slider-5-slide-13-layer-3
+{
+  font-family: Gotham-Bold!important;
+}
+
+rs-layer#slider-5-slide-13-layer-2{
+  font-family: Gotham-Bold!important;
+}
+
+rs-layer#slider-5-slide-13-layer-20{
+  font-family: Gotham-Bold!important;
+}
+
+/*index page - sticker cat - on hover add effect to div*/
+#index-sticker-cat .vc_single_image-wrapper.vc_box_border_grey :hover{
+  background-color: #9f9f9f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*3 step thing banner*/
+/*circle 1 before icon */
+.single-img-logistics .single-img-1 .vc_single_image-wrapper:after {
+  transition: all .3s ease-in-out;
+  content: "1";
+}.single-img-logistics .vc_single_image-wrapper:after {
+  position: relative;
+  display: block;
+  height: 45px;
+  width: 45px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #49d0e5;
+  color: #FFF;
+  margin: 30px auto auto;
+  z-index: 1;
+  border: 3px solid transparent;
+}
+.single-img-logistics .single-img-3:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-1:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-2:hover .vc_single_image-wrapper:after {
+  background-color: #F9B200;
+  border-color: #195688;
+}
+/*circle 2 after  icon */
+.single-img-logistics .single-img-2 .vc_single_image-wrapper:after {
+  transition: all .3s ease-in-out;
+  content: "2";
+}
+
+.single-img-logistics .vc_single_image-wrapper:after {
+  position: relative;
+  display: block;
+  height: 45px;
+  width: 45px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #49d0e5;
+  color: #FFF;
+  margin: 30px auto auto;
+  z-index: 1;
+  border: 3px solid transparent;
+}
+.single-img-logistics .single-img-3:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-1:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-2:hover .vc_single_image-wrapper:after {
+  background-color: #F9B200;
+  border-color: #195688;
+}
+/*circle 3 after  icon */
+.single-img-logistics .single-img-3 .vc_single_image-wrapper:after {
+  transition: all .3s ease-in-out;
+  content: "3";
+}
+
+.single-img-logistics .vc_single_image-wrapper:after {
+  position: relative;
+  display: block;
+  height: 45px;
+  width: 45px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #49d0e5;
+  color: #FFF;
+  margin: 30px auto auto;
+  z-index: 1;
+  border: 3px solid transparent;
+}
+.single-img-logistics .single-img-3:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-1:hover .vc_single_image-wrapper:after, .single-img-logistics .single-img-2:hover .vc_single_image-wrapper:after {
+  background-color: #F9B200;
+  border-color: #195688;
+}
+.single-img-logistics .single-img-3 .vc_single_image-wrapper:after {
+  transition: all .3s ease-in-out;
+  content: "3";
+}
+#index-3-step-thingy .wpb_wrapper h3 {
+  text-align: center;
+}
+
+#index-3-step-thingy .vc_row:after {
+  clear: both;
+}
+#index-3-step-thingy .vc_row:after, .vc_row:before {
+  content: " ";
+  display: table;
+}
+#index-3-step-thingy .single-img-logistics:after {
+  content: "";
+  height: 5px;
+  background-color: #AAA;
+  width: 815px;
+  position: absolute;
+  bottom: 115px;
+  left: 180px;
+}
+
+/*hide line 3 step on tablet and mobile*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #index-3-step-thingy .single-img-logistics:after {
+    display:none;
+   }
+  
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #index-3-step-thingy .single-img-logistics:after {
+    display:none;
+   }
+  
+}
+
+/*index buttons orange*/
+.button_style_1 button, .button_style_1 a {
+  background-color: #f58b35 !important;
+  border: #f58b35 2px solid!important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  padding: 20px 35px !important;
+  min-width: 150px;
+  letter-spacing: .05em;
+  border-radius: 6px;
+  font-size: 20px!important;
+  font-family: Gotham-Medium!important;
+}
+/*on hover lighte primary orange*/
+.button_style_1 button:hover, .button_style_1 a:hover {
+  background-color: #ffbc64 !important;
+  border: 2px solid #ffbc64 !important;
+}
+
+.button_style_2 button, .button_style_2 a {
+  background-color: #fff !important;
+  background-image: none !important;
+  border: 2px solid #fff !important;
+  color: #3f3f3f !important;
+  font-weight: 700 !important;
+  padding: 20px 35px !important;
+  min-width: 150px;
+  letter-spacing: .05em;
+  border-radius: 6px;
+  font-size: 20px!important;
+  font-family: Gotham-Medium!important;
+}
+
+.button_style_2 button:hover, .button_style_2 a:hover {
+  background-color: #ffbc64 !important;
+  border: 2px solid #ffbc64 !important;
+  color: #fff !important;
+}
