@@ -1,0 +1,37 @@
+/*
+Theme Name: Pangja - Child
+Theme URI: http://harutheme.com/pangja
+Author: HaruTheme
+Author URI: http://harutheme.com/
+Description: This is child theme of Pangja
+Template: pangja
+Version: 1.0.0
+
+*/
+
+/*---------------------------------
+    FONT CUSTOME GOTHAM
+------------------------------------*/
+
+@font-face {
+    font-family: Gotham-Light;  
+    src: url(../pangja-child/assets/fonts/Gotham-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Gotham-Medium;  
+    src: url(../pangja-child/assets/fonts/Gotham-Medium.ttf);
+    font-weight: normal;
+}
+
+/*-----------------------------------
+ * BASE STYLE
+ *-----------------------------------*/
+ body {
+    color: #3f3f3f;
+    line-height: 1.8;
+    overflow-x: hidden;
+    font-family: "Gotham-Light";
+    -webkit-font-smoothing: antialiased;
+  }
