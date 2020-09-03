@@ -1,0 +1,113 @@
+/*!
+Haru Pangja Editor Styles
+*/
+/*custom font Gotham Light Medium*/
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../../../../pangja-child/assets/fonts/Gotham-Medium.otf");
+  src: url("../../../../pangja-child/assets/fonts/Gotham-Medium.ttf");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("../../../../pangja-child/assets/fonts/Gotham-Light.otf");
+  src: url("../../../../pangja-child/assets/fonts/Gotham-Light.ttf");
+}
+body {
+  color: #383636 !important;
+  line-height: 1.8 !important;
+  font-family: "Gotham-Light";
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #383636;
+  font-family: "Gotham-Medium";
+  font-weight: 700;
+}
+
+h1 {
+  /*font-size: 36px;*/
+  font-size: 57px;
+}
+
+h2 {
+  /*font-size: 28px;*/
+  font-size: 44px;
+}
+
+h3 {
+  /*font-size: 24px;*/
+  font-size: 32px;
+}
+
+h4 {
+  /*font-size: 21px;*/
+  font-size: 26px;
+}
+
+h5 {
+  /*font-size: 18px;*/
+  font-size: 20px;
+}
+
+h6 {
+  /*font-size: 14px;*/
+  font-size: 18px;
+}
+
+p {
+  /*font-size: 14px;*/
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #F58A35;
+}
+a:hover {
+  color: #39ACE1;
+  text-decoration: none;
+}
+a:active {
+  color: #359ccc;
+  text-decoration: none;
+}
+a:focus {
+  color: #359ccc;
+  outline: none;
+  text-decoration: none;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  font-family: "Gotham-Medium";
+  color: #383636;
+  font-size: 34px;
+  margin-top: 0;
+}
+
+blockquote {
+  border-left: none;
+  font-size: 16px;
+  font-style: italic;
+  margin: 3% 5%;
+  font-family: "Gotham-Light";
+}
+blockquote p {
+  color: #383636;
+  font-size: 16px;
+}
+blockquote .wp-block-quote__citation {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.wp-block-pullquote {
+  color: #383636;
+}
+.wp-block-pullquote .wp-block-pullquote__citation {
+  font-style: italic;
+  text-transform: none;
+  font-size: 16px;
+}

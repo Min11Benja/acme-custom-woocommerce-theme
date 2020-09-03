@@ -9,6 +9,8 @@ Version: 1.0.0
 
 */
 
+
+
 /*---------------------------------
     FONT CUSTOME GOTHAM
 ------------------------------------*/
@@ -35,3 +37,277 @@ Version: 1.0.0
     font-family: "Gotham-Light";
     -webkit-font-smoothing: antialiased;
   }
+
+  
+h1, h2, h3, h4, h5, h6 {
+    color: #3f3f3f;
+    font-family: "Gotham-Light";
+    font-weight: 700;
+  }
+/* Style for Mega Menu */
+/***** TABLE OF CONTENTS *****
+*** 1. GENERAL
+*** 2. MEGA MENU STYLE COLUMN
+*** 3. MEGA MENU STYLE DROPDOWN
+*** 4. MEGA MENU STYLE TAB
+*/
+/* RESET MENU STYLE */
+  .navbar .navbar-nav a, .navbar .navbar-nav ul, .navbar .navbar-nav li, .navbar .navbar-nav div, .navbar .navbar-nav form, .navbar .navbar-nav input {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham-Light";
+  }
+/*-----------------------------------
+ * SEARCH BUTTON POPUP AJAX
+ *-----------------------------------*/
+  #haru-search-popup .haru-search-wrap .search-popup-form input[type="search"] {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-family: "Gotham-Light";
+    letter-spacing: 2px;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  /*-----------------------------------
+ * 6. BLOG
+ *-----------------------------------*/
+/*-----------------------------------
+ * BLOG
+ *-----------------------------------*/
+
+ .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-quote-wrapper blockquote {
+    font-family: "Gotham-Light";
+    border-left: none;
+    font-style: italic;
+    margin: 0;
+  }
+  .haru-archive-blog .archive-paging.default .page-numbers li span, .haru-archive-blog .archive-paging.default .page-numbers li a {
+    color: #3f3f3f;
+    display: inline-block;
+    padding: 0 13px;
+    min-width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-family: "Gotham-Light";
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+
+  .single-content .single-wrapper article .post-thumbnail-wrapper blockquote {
+    border-left: 4px solid #006ad0;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Gotham-Light";
+    margin: 5%;
+  }
+
+  .single-content .single-wrapper .single-post-navigation .nav-links.nav-previous .post-navigation-content .post-navigation-title {
+    color: #3f3f3f;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Gotham-Light";
+  }
+
+  .single-content .single-wrapper .author-info .author-description .author-bio {
+    font-family: "Gotham-Light";
+    font-style: italic;
+    font-size: 15px;
+    padding: 0 12%;
+  }
+  .single-content .single-wrapper .single-post-navigation .nav-links.nav-previous .post-navigation-content .post-navigation-title {
+    color: #3f3f3f;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Gotham-Light";
+  }
+
+  .single-content .single-wrapper .single-post-navigation .nav-links.nav-next .post-navigation-content .post-navigation-title {
+    font-family: "Gotham-Light";
+    color: #3f3f3f;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .single-content .single-wrapper .author-info .author-description .author-bio {
+    font-family: "Gotham-Light";
+    font-style: italic;
+    font-size: 15px;
+    padding: 0 12%;
+  }
+
+  .single-product-top .entry-summary form.cart .woocommerce-variation-price span.price {
+    font-family: "Gotham-Light";
+    font-size: 20px;
+    color: #006ad0;
+  }
+
+  .single-product-top .entry-summary .grouped_form .woocommerce-grouped-product-list-item__price .woocommerce-Price-amount {
+    margin-right: 5px;
+    color: #006ad0;
+    font-size: 16px;
+    font-family: "Gotham-Light";
+    font-style: italic;
+    position: relative;
+    top: -3px;
+  }
+
+  .woocommerce-cart .woocommerce table.shop_table_responsive .product-price .woocommerce-Price-amount {
+    font-family: "Gotham-Light";
+    color: #3f3f3f;
+  }
+
+  .woocommerce-cart .woocommerce table.shop_table_responsive .product-subtotal .woocommerce-Price-amount {
+    font-family: "Gotham-Light";
+    font-weight: 700;
+    color: #3f3f3f;
+  }
+
+  .woocommerce-wishlist .woocommerce .wishlist_table tbody .product-price {
+    color: #3f3f3f;
+    font-family: "Gotham-Light";
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .popup-product-quick-view-wrapper .woocomerce-quickview-info .entry-summary form.cart .woocommerce-variation-price span.price {
+    font-family: "Gotham-Light";
+    font-size: 20px;
+    color: #006ad0;
+  }
+
+  .popup-product-quick-view-wrapper .woocomerce-quickview-info .entry-summary .grouped_form .woocommerce-grouped-product-list-item__price .woocommerce-Price-amount {
+    margin-right: 5px;
+    color: #006ad0;
+    font-size: 16px;
+    font-family: "Gotham-Light";
+    font-style: italic;
+    position: relative;
+    top: -3px;
+  }
+
+
+
+  .decoration-shortcode-wrap.style_1 .decoration-content .description-info {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    font-size: 42px;
+    font-family: "Gotham-Light";
+    line-height: .9;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .counter-shortcode-wrap.style_2 .gr-counter .content-inner .gr-number-counter {
+    color: #006ad0;
+    font-size: 56px;
+    font-family: "Gotham-Light";
+    font-weight: 700;
+  }
+
+  .recent-news-shortcode-wrap.carousel_2 .recent-news-container article .post-content .post-meta-date {
+    background-color: #006ad0;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    flex: 0 0 90px;
+    font-weight: 700;
+    font-family: "Gotham-Light";
+    position: relative;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .images-gallery-shortcode-wrap.grid .images-list .image-item .slide-item .image-meta .image-title {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Gotham-Light";
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .testimonial-shortcode-wrap.carousel_3 .testimonial-list .testimonial-item .testimonial-content .testimonial-author-meta .testimonial-title {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Gotham-Light";
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+  }
+  .body-font {
+    font-family: "Gotham-Light";
+  }
+  
+  .secondary-font {
+    font-family: "Gotham-Light";
+  }
+
+  .haru-page-links > span.haru-page-link {
+    background-color: #006ad0;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 8px;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    font-family: "Gotham-Light";
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .haru-page-links > a > span {
+    padding: 0 4px 2px 4px;
+    margin: 0 5px;
+    color: #3f3f3f;
+    font-family: "Gotham-Light";
+    font-size: 15px;
+  }
+
+  .comment-navigation span,
+.comment-navigation a {
+  color: #3f3f3f;
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  font-family: "Gotham-Light";
+  border-bottom: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
