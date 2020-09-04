@@ -9,8 +9,6 @@ Version: 1.0.0
 
 */
 
-
-
 /*---------------------------------
     FONT CUSTOME GOTHAM
 ------------------------------------*/
@@ -406,7 +404,9 @@ header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap {
 header.haru-main-header .header-logo a img {
    max-height: 55px!important;
 }
-
+header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap .header-navigation .menu-wrap .haru-main-menu > li.current-menu-item > a {
+  color: #F58A35;
+}
 .vc_custom_heading.heading_style_5 .hightlight-heading {
    color: #F58A35!important;
    padding-left: .2em;
@@ -683,8 +683,8 @@ rs-layer#slider-5-slide-13-layer-20{
 .button_style_1 button, .button_style_1 a {
   background-color: #f58b35 !important;
   border: #f58b35 2px solid!important;
-  color: #fff !important;
-  font-weight: 700 !important;
+  color: #fff ;
+  font-weight: 700 ;
   padding: 20px 35px !important;
   min-width: 150px;
   letter-spacing: .05em;
@@ -700,11 +700,11 @@ rs-layer#slider-5-slide-13-layer-20{
 
 .button_style_2 button, .button_style_2 a {
   background-color: #fff !important;
-  background-image: none !important;
+  background-image: none ;
   border: 2px solid #fff !important;
-  color: #3f3f3f !important;
-  font-weight: 700 !important;
-  padding: 20px 35px !important;
+  color: #3f3f3f ;
+  font-weight: 700 ;
+  padding: 20px 35px!important ;
   min-width: 150px;
   letter-spacing: .05em;
   border-radius: 6px;
@@ -715,5 +715,40 @@ rs-layer#slider-5-slide-13-layer-20{
 .button_style_2 button:hover, .button_style_2 a:hover {
   background-color: #ffbc64 !important;
   border: 2px solid #ffbc64 !important;
-  color: #fff !important;
+  color: #fff ;
+}
+
+
+/*contact us page*/
+/*contact us page icons adress phone email color to orange*/
+.footer-contact-shortcode-wrap.style_2 .footer-contact-content .contact-information li span.contact-icon {
+  color: #F58A35;
+  font-size: 16px;
+  min-width: 25px;
+}
+/*contact us buton*/
+.contact-form .contact-submit input {
+  position: relative;
+  margin-top: -5px;
+
+  background-color: #f58b35 ;
+  border: #f58b35 2px solid;
+  color: #fff ;
+  font-weight: 700 ;
+  padding: 20px 35px ;
+  min-width: 150px;
+  letter-spacing: .05em;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: Gotham-Medium;
+}
+/*contact us boton hover*/
+.contact-form .contact-submit input:hover {
+  background-color: #ffbc64 ;
+  border: 2px solid #ffbc64 ;
+  color: #fff;
+}
+/*contact us breadcrumb hover link*/
+.haru-page-title-section .haru-breadcrumb-wrapper .breadcrumbs li a:hover {
+  color: #f58b35;
 }
