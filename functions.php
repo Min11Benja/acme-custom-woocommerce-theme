@@ -34,4 +34,24 @@ function haru_child_theme_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'haru_child_theme_enqueue_scripts', 12 );
 
+
+/* Hide  Quantity Input field if category slug = stickers*/
+add_action( 'wp_head', 'ced_quantity_wp_head' );
+function ced_quantity_wp_head() 
+{
+    if (has_term( array( 'stickers' ), 'product_cat' ))
+    {
+        ?>
+        <style type="text/css">.quantity, .buttons_added { width:0; height:0; display: none; visibility: hidden; }</style>
+        <?php
+    }
+}
+/* hide pricing summary*/
+add_filter('wapf/html/pricing_hint','wapf_remove_pricing_hint',10,4);
+function wapf_remove_pricing_hint($price_hint,$product,$amt,$type) {
+	return '';
+}
+
 ?>
+
+

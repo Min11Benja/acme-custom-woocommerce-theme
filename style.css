@@ -752,3 +752,11 @@ rs-layer#slider-5-slide-13-layer-20{
 .haru-page-title-section .haru-breadcrumb-wrapper .breadcrumbs li a:hover {
   color: #f58b35;
 }
+
+/*custome form woocomrce plugin style*/
+form.cart {
+  display: inline-block;
+}
+/* hide only the top two lines (“product total” and “option total”)*/
+.wapf-product-totals .wapf--inner > div:first-child, .wapf-product-totals .wapf--inner > div:nth-child(2){display:none;}
+
