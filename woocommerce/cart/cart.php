@@ -53,32 +53,30 @@ do_action( 'woocommerce_before_cart' ); ?>
 
                 <td class="product-thumbnail">
 
-
-
                     <?php
                     /*print("<pre>".print_r($cart_item,true)."</pre>");*/
-                /*<a href="http://acme:8888/wp-content/uploads/wapf/0378b204dc3c3c29e7c3ae08c13e7e0d/2020/09/Die-cut-stickers-orange.png" target="_blank">Die-cut-stickers-orange.png</a>*/
-                 /*   print_r($cart_item[wapf][2][values][0][label]); */
-                    $uploaded_thumbnail_code = $cart_item[wapf][2][values][0][label];
-                /*string*/
-                /*
-                $uploaded_thumbnail_link = substr($uploaded_thumbnail_code, 9); 
-                   echo $uploaded_thumbnail_link;*/
+                    /*<a href="http://acme:8888/wp-content/uploads/wapf/0378b204dc3c3c29e7c3ae08c13e7e0d/2020/09/Die-cut-stickers-orange.png" target="_blank">Die-cut-stickers-orange.png</a>*/
+                    /*print_r($cart_item[wapf][2][values][0][label]); */
+                    $uploaded_thumbnail_code = $cart_item["wapf"][2]["values"][0]["label"];
+                    /*string*/
+                    /*
+                    $uploaded_thumbnail_link = substr($uploaded_thumbnail_code, 9); 
+                    echo $uploaded_thumbnail_link;*/
                     preg_match_all('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $uploaded_thumbnail_code, $match);
                     /* print_r($match[0]); */
                     $uploaded_thumbnail_link = implode($match[0]); 
-               /*echo $uploaded_thumbnail_link;*/
-                        if ( ! $uploaded_thumbnail_link ) {
-                                echo wp_kses_post( $thumbnail ); // PHPCS: XSS ok.
-                            } else {
-                        echo '
+                    /*echo $uploaded_thumbnail_link;*/
+                    if ( ! $uploaded_thumbnail_link ) {
+                        echo wp_kses_post( $thumbnail ); // PHPCS: XSS ok.
+                    } else {
+                    echo '
                         <img width="145" height="145" src='.$uploaded_thumbnail_link.' class="woocommerce-placeholder wp-post-image" alt="Placeholder" loading="lazy" srcset="'.$uploaded_thumbnail_link.'" sizes="(max-width: 145px) 100vw, 145px">
                         ';
-                    } 
+                        } 
                     ?>
 
-                    <?php
-                /*
+                            <?php
+                            /*
                             $thumbnail = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(array('145','180')), $cart_item, $cart_item_key );
 
                             if ( ! $product_permalink ) {
@@ -86,8 +84,8 @@ do_action( 'woocommerce_before_cart' ); ?>
                             } else {
                                 printf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $thumbnail ); // PHPCS: XSS ok.
                             }
-                */
-                        ?>
+                            */
+                            ?>
                 </td>
 
                 <td class="product-name" data-title="<?php echo esc_attr__( 'Product', 'pangja' ); ?>">
