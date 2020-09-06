@@ -82,18 +82,34 @@ do_action('haru_before_page');
 ?>
 
 <div class="haru-single-product">
-    
-     <!-- add bg image here -->
+
+    <!-- add bg image here -->
     <?php if( get_field('bg-img') ): ?>
     <style type="text/css">
-        .haru-single-product{
-        background-image: url("<?php the_field('bg-img'); ?>");
-       
-        background-repeat: no-repeat;
-        background-origin: content-box;
+        .haru-single-product {
+            background-image: url("<?php the_field('bg-img'); ?>");
+
+            background-repeat: no-repeat;
+            background-origin: content-box;
         }
+
+        /*change bg color of content to img bg color*/
+        div#haru-content-main {
+            background-color: #efefef;
+        }
+
+        /*change bg color of desc box to img bg color*/
+        div#tab-description {
+            background-color: #efefef;
+        }
+
+        /*change bg color of reviews to img bg color*/
+        div#tab-reviews {
+            background-color: #efefef;
+        }
+
     </style>
-    
+
     <?php endif; ?>
     <!-- add bg image here -->
 

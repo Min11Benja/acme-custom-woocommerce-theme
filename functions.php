@@ -45,15 +45,33 @@ function ced_quantity_wp_head()
     if (has_term( array( 'stickers' ), 'product_cat' ))
     {
         ?>
-        <style type="text/css">.quantity, .buttons_added { width:0; height:0; display: none; visibility: hidden; }
-div.quantity,
-.woocommerce .button[name=add-to-cart] {
-    display: none;
-    /*Hide Add to Cart button until last step*/
-}
+<style type="text/css">
+    .quantity,
+    .buttons_added {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    div.quantity,
+    .woocommerce .button[name=add-to-cart] {
+        display: none;
+        /*Hide Add to Cart button until last step*/
+    }
+
+    form.cart {
+        border-radius: 9px;
+        border: 5px solid rgba(0, 0, 0, .15);
+        background-clip: padding-box;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
 </style>
-        
-        <?php
+
+<?php
     
         /** remove image hook before single product sumary**/
 remove_action('woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
@@ -93,26 +111,24 @@ add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_s
 add_action('wapf_before_wrapper', 'wapf_before_wrapper');
 function wapf_before_wrapper($product) {
 	?>
-	<div class="wapf-progress">
-		<div class="wapf-progress-bar"></div>
-		<div class="wapf-progress-steps"></div>
-	</div>
-	<?php
+<div class="wapf-progress">
+    <div class="wapf-progress-bar"></div>
+    <div class="wapf-progress-steps"></div>
+</div>
+<?php
 }
 
 add_action('wapf_before_product_totals', 'wapf_before_product_totals');
 function wapf_before_product_totals($product){
 	?>
-	<div class="wapf_step_buttons">
-        <button class="button wapf_btn_prev" style="display:none">Previous</button>
-		<button class="button wapf_btn_next">Next</button>
-	</div>
-	
-	
-	<?php
-}
-        
-        
+<div class="wapf_step_buttons">
+    <button class="button wapf_btn_prev" style="display:none">Previous</button>
+    <button class="button wapf_btn_next">Next</button>
+</div>
+
+
+<?php
+}   
         
     }
 }
@@ -122,5 +138,3 @@ function wapf_before_product_totals($product){
 
 
 ?>
-
-

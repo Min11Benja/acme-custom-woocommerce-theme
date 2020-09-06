@@ -356,6 +356,12 @@ h6 {
     transition: all 0.3s;
 }
 
+/*
+-------------------------------------------
+HEADER
+-------------------------------------------
+*/
+
 /*HOME 5 STLES*/
 /*acme icon sticky header size*/
 header.haru-main-header .haru-header-nav-wrap.nav-sticky .header-logo a img {
@@ -528,6 +534,11 @@ header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap .header-
     color: #F58A35;
 }
 
+/*
+-------------------------------------------
+FOOTER ACME 
+-------------------------------------------
+*/
 /*footer text dark*/
 .text-color-secondary {
     color: #383636;
@@ -564,6 +575,12 @@ header.haru-main-header.header-sticky.sticky_dark .haru-header-nav-wrap .header-
     font-size: 18px;
     margin: 20px 0;
 }
+
+/*
+-------------------------------------------
+INDEX PAGE
+-------------------------------------------
+*/
 
 /*HERO SLIDE 2*/
 rs-layer#slider-5-slide-12-layer-5 {
@@ -815,8 +832,11 @@ rs-layer#slider-5-slide-13-layer-20 {
     color: #fff;
 }
 
-
-/*contact us page*/
+/*
+-------------------------------------------
+CONTACT US PAGE
+-------------------------------------------
+*/
 /*contact us page icons adress phone email color to orange*/
 .footer-contact-shortcode-wrap.style_2 .footer-contact-content .contact-information li span.contact-icon {
     color: #F58A35;
@@ -854,10 +874,13 @@ rs-layer#slider-5-slide-13-layer-20 {
 }
 
 /*
------------------------
+-------------------------------------------
 SINGLE PRODUCT PAGE
------------------------
+-------------------------------------------
 */
+.single-product-top {
+    margin-top: 30px;
+}
 
 .label {
     display: inline;
@@ -900,7 +923,7 @@ SINGLE PRODUCT PAGE
     -o-transition: all 0.3s;
     transition: all 0.3s;
     font-size: 20px;
-    margin-top: 10px;
+    margin: 0 56px;
 }
 
 /*add to cart hover effect color*/
@@ -921,6 +944,7 @@ SINGLE PRODUCT PAGE
     -moz-border-radius: 30px !important;
     border-radius: 30px !important;
 }
+
 /*submit review btn on hover*/
 .single-product-content .woocommerce-tabs .woocommerce-Tabs-panel .woocommerce-Reviews #review_form_wrapper .comment-form .form-submit .submit:hover {
     background-color: #ffbc64 !important;
@@ -943,8 +967,6 @@ form.cart {
 
 /*STEP FORM STYLE*/
 
-
-
 .wapf-field-group .step {
     display: none;
 }
@@ -960,23 +982,16 @@ form.cart {
 }
 
 .wapf-product-totals {
-    background-color: #fff;
-    padding: 0px 40px;
-    border-radius: 9px;
-    border: 5px solid rgba(0, 0, 0, .15);
+    padding: 0px 10px 0px 20px;
 }
 
 .wapf-wrapper {
-    border-radius: 9px;
-    border: 5px solid rgba(0, 0, 0, .15);
-    background-clip: padding-box;
     padding: 15px 20px;
-    margin-bottom: 20px;
 }
 
 .wapf_step_buttons {
-    margin-bottom: 20px;
     overflow: hidden;
+    padding: 0px 10px 0px 15px;
 }
 
 .wapf_btn_next {
@@ -1094,13 +1109,15 @@ form.cart {
 .woocommerce-message {
     border-top-color: #f58b35;
 }
+
 /*round check green color*/
 .woocommerce-message:before {
     color: #6dab3c;
 }
+
 /*view cart buton on hover effect*/
-.woocommerce a.button:hover, .woocommerce input.button:hover {
+.woocommerce a.button:hover,
+.woocommerce input.button:hover {
     background: #ffbc64;
     color: #3f3f3f;
 }
-
