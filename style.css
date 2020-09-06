@@ -1301,3 +1301,18 @@ div#order_review {
 .woocommerce-checkout .woocommerce .woocommerce-checkout-review-order #place_order:hover{
     background: #ffbc64;
 }
+
+/*
+-------------------------------------------
+MINI CART VIEW
+-------------------------------------------
+*/
+.mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button.checkout {
+    background-color: #f79468;
+}
+.mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button.checkout:hover {
+    background-color: #ffbc64;
+}
+.mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button:hover {
+    background-color: #ffbc64;
+}
