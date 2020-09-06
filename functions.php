@@ -34,6 +34,9 @@ function haru_child_theme_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'haru_child_theme_enqueue_scripts', 12 );
 
+/*Remove the you may also like this */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+add_filter('woocommerce_product_related_posts_query', '__return_empty_array', 100);
 
 /* Hide  Quantity Input field if category slug = stickers*/
 add_action( 'wp_head', 'ced_quantity_wp_head' );
@@ -42,15 +45,81 @@ function ced_quantity_wp_head()
     if (has_term( array( 'stickers' ), 'product_cat' ))
     {
         ?>
-        <style type="text/css">.quantity, .buttons_added { width:0; height:0; display: none; visibility: hidden; }</style>
+        <style type="text/css">.quantity, .buttons_added { width:0; height:0; display: none; visibility: hidden; }
+div.quantity,
+.woocommerce .button[name=add-to-cart] {
+    display: none;
+    /*Hide Add to Cart button until last step*/
+}
+</style>
+        
         <?php
+    
+        /** remove image hook before single product sumary**/
+remove_action('woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
+
+/** remove title hook in single product sumary**/
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+
+/** remove price hook in single product sumary**/
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
+
+/** remove short desc hook in single product sumary**/
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+
+/** remove single meta hook in single product sumary**/
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+/** remove sharing hook in single product sumary**/
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
+
+/** add title hook before single product sumary**/
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 5 );
+
+/** add price hook before single product sumary
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_price', 10 );
+**/
+
+/** add short desc hook before single product sumary**/
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+
+/** add single meta hook before single product sumary**/
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_meta', 40  );
+
+/** add sharing hook before single product sumary**/
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_sharing', 50  );
+
+/*progress bar added*/
+add_action('wapf_before_wrapper', 'wapf_before_wrapper');
+function wapf_before_wrapper($product) {
+	?>
+	<div class="wapf-progress">
+		<div class="wapf-progress-bar"></div>
+		<div class="wapf-progress-steps"></div>
+	</div>
+	<?php
+}
+
+add_action('wapf_before_product_totals', 'wapf_before_product_totals');
+function wapf_before_product_totals($product){
+	?>
+	<div class="wapf_step_buttons">
+        <button class="button wapf_btn_prev" style="display:none">Previous</button>
+		<button class="button wapf_btn_next">Next</button>
+	</div>
+	
+	
+	<?php
+}
+        
+        
+        
     }
 }
-/* hide pricing summary*/
-add_filter('wapf/html/pricing_hint','wapf_remove_pricing_hint',10,4);
-function wapf_remove_pricing_hint($price_hint,$product,$amt,$type) {
-	return '';
-}
+
+
+
+
 
 ?>
 
