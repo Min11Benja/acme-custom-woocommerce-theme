@@ -1121,3 +1121,65 @@ form.cart {
     background: #ffbc64;
     color: #3f3f3f;
 }
+/*
+-------------------------------------------
+SHOPPING CART VIEW
+-------------------------------------------
+*/
+/*title color to orange*/
+.woocommerce-cart .woocommerce .shopping-cart-title {
+    color: #f58b35;
+}
+
+.woocommerce-cart .woocommerce .button {
+    background: #f58b35;
+}
+
+.woocommerce-cart .woocommerce .button:hover{
+    background: #ffbc64;
+}
+
+.woocommerce-cart .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a {
+    background: #f58b35;
+}
+
+.woocommerce-cart .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover {
+    background: #ffbc64;
+}
+
+.woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit:disabled[disabled]:hover, .woocommerce a.button.disabled:hover, .woocommerce a.button:disabled:hover, .woocommerce a.button:disabled[disabled]:hover, .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, .woocommerce input.button.disabled:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover {
+    color: inherit;
+    background-color: #ebe9eb;
+    color: #2a2a2a!important;
+}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: right;
+    width: 30%;
+     border-radius: 9px;
+        border: 5px solid rgba(0, 0, 0, .15);
+        background-clip: padding-box;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+}
+
+
+/*cart box needs to be 100% on tablet and mobile*/
+@media (min-width: 481px) and (max-width: 767px) {
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+   
+    width: 100%;
+    
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+   .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+   
+    width: 100%;
+    
+}
+}
