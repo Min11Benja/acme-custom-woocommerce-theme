@@ -52,16 +52,20 @@ h6 {
     font-family: "Gotham-Bold" !important;
     font-weight: 700;
 }
+
 a:active {
     color: #F58A35;
     text-decoration: none;
 }
+
 a:hover {
     color: #F58A35;
 }
+
 a:focus {
     color: #F58A35;
 }
+
 /* Style for Mega Menu */
 /***** TABLE OF CONTENTS *****
 *** 1. GENERAL
@@ -882,6 +886,17 @@ CONTACT US PAGE
     color: #f58b35;
 }
 
+/*contact iput on hover change border to orange*/
+.contact-form input[type="text"]:focus,
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="email"]:hover,
+.contact-form textarea:focus,
+.contact-form textarea:hover {
+    outline: none;
+    border: 1px solid #ffbc64;
+}
+
 /*
 -------------------------------------------
 SINGLE PRODUCT PAGE
@@ -1263,20 +1278,26 @@ CHECKOUR VIEW
     border: #9f9f9f solid 2px;
     background-color: #fff;
 }
+
 .woocommerce-info:before {
     color: #f58b35;
 }
+
 .woocommerce-checkout .woocommerce .button {
     background: #f79468;
 }
+
 .woocommerce-checkout .woocommerce .button:hover {
     background: #ffbc64;
 }
-.woocommerce-checkout .woocommerce .form-row input.input-text:focus, .woocommerce-checkout .woocommerce .form-row textarea:focus {
+
+.woocommerce-checkout .woocommerce .form-row input.input-text:focus,
+.woocommerce-checkout .woocommerce .form-row textarea:focus {
     border: 1px solid #f79468;
 }
 
-.woocommerce-checkout .woocommerce .form-row input.input-text, .woocommerce-checkout .woocommerce .form-row textarea {
+.woocommerce-checkout .woocommerce .form-row input.input-text,
+.woocommerce-checkout .woocommerce .form-row textarea {
     border: 1px solid #9f9f9f;
     padding: 8px 15px;
     -webkit-border-radius: 0;
@@ -1298,7 +1319,7 @@ div#order_review {
     background: #f79468;
 }
 
-.woocommerce-checkout .woocommerce .woocommerce-checkout-review-order #place_order:hover{
+.woocommerce-checkout .woocommerce .woocommerce-checkout-review-order #place_order:hover {
     background: #ffbc64;
 }
 
@@ -1310,9 +1331,161 @@ MINI CART VIEW
 .mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button.checkout {
     background-color: #f79468;
 }
+
 .mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button.checkout:hover {
     background-color: #ffbc64;
 }
+
 .mini-cart-wrap .widget_shopping_cart_content .cart_list_wrap p.buttons .button:hover {
     background-color: #ffbc64;
+}
+
+/*
+-------------------------------------------
+LOGIN VIEW
+-------------------------------------------
+*/
+#post-24 .entry-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.woocommerce-account .woocommerce .customer_login_form_wrap form {
+    border-radius: 5px;
+}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+    border: 2px solid #d3ced2;
+}
+
+.woocommerce-account .woocommerce .customer_login_form_wrap form .button {
+    background: #f79468;
+}
+
+.woocommerce-account .woocommerce .customer_login_form_wrap form .button:hover {
+    background: #ffbc64;
+}
+
+/*
+-------------------------------------------
+REGISTER ACCOUNT VIEW
+-------------------------------------------
+*/
+
+
+/*
+-------------------------------------------
+TYP RECIPT VIEW
+-------------------------------------------
+*/
+.woocommerce-thankyou-order-details .method {
+    margin-top: 0px;
+}
+
+.woocommerce-thankyou-order-details {
+    padding: 20px 30px;
+    width: auto;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.woocommerce-thankyou-order-received {
+    color: #3f3f3f;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section.woocommerce-order-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.woocommerce-checkout .woocommerce h3 {
+    text-align: center;
+    text-transform: inherit;
+}
+
+.woocommerce-order {
+    width: 800px;
+    border: solid 2px #9f9f9f;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+h2.woocommerce-order-details__title {
+    text-align: center;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .woocommerce-order {
+        width: 100%;
+    }
+
+    .woocommerce-checkout .woocommerce h3 {
+        text-align: left;
+        text-transform: inherit;
+    }
+
+    li.woocommerce-order-overview__order.order {
+        padding-bottom: 10px;
+    }
+
+    li.woocommerce-order-overview__date.date {
+        padding-bottom: 10px;
+    }
+
+    li.woocommerce-order-overview__total.total {
+        padding-bottom: 10px;
+    }
+
+    .woocommerce ul.order_details li {
+
+        border-right: 0px;
+        padding-right: 0px;
+
+    }
+
+    ul.wc-item-meta {
+        padding-left: 10px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    ul.wc-item-meta {
+        padding-left: 10px;
+    }
+
+    .woocommerce-order {
+        width: 100%;
+    }
+
+    .woocommerce-checkout .woocommerce h3 {
+        text-align: left;
+        text-transform: inherit;
+    }
+
+    li.woocommerce-order-overview__order.order {
+        padding-bottom: 10px;
+    }
+
+    li.woocommerce-order-overview__date.date {
+        padding-bottom: 10px;
+    }
+
+    li.woocommerce-order-overview__total.total {
+        padding-bottom: 10px;
+    }
+
+    .woocommerce ul.order_details li {
+
+        border-right: 0px;
+        padding-right: 0px;
+
+    }
 }
