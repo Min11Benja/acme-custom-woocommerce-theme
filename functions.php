@@ -24,6 +24,14 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  */
 
+//*******************************************************
+//Function to change to lost password url
+//********************************************************
+add_filter( 'lostpassword_url',  'wdm_lostpassword_url', 10, 0 );
+function wdm_lostpassword_url() {
+    return site_url('/wp-login.php?action=lostpassword');
+}
+
 function haru_child_theme_enqueue_scripts() {
     wp_enqueue_style( 'haru-theme-child-style', get_stylesheet_directory_uri(). '/style.css', array('haru-theme-style') );
     wp_enqueue_script(
@@ -68,6 +76,9 @@ function ced_quantity_wp_head()
         margin-bottom: 20px;
         background-color: #fff;
     }
+    .woocommerce div.product form.cart div.quantity {
+    display: none!important;
+}
 
 </style>
 
@@ -102,11 +113,11 @@ add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_s
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 
 /** add single meta hook before single product sumary**/
-add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_meta', 40  );
-
+/*add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_meta', 40  );
+*/
 /** add sharing hook before single product sumary**/
-add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_sharing', 50  );
-
+/*add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_sharing', 50  );
+*/
 /*progress bar added*/
 add_action('wapf_before_wrapper', 'wapf_before_wrapper');
 function wapf_before_wrapper($product) {
@@ -132,8 +143,6 @@ function wapf_before_product_totals($product){
         
     }
 }
-
-
 
 
 
